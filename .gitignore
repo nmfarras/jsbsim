@@ -106,3 +106,19 @@ UnrealEngine/Intermediate
 UnrealEngine/Saved
 UnrealEngine/UEReferenceApp.xcworkspace
 UnrealEngine/UEReferenceApp.sln
+
+#################
+## Special Rule
+#################
+# Allow specific folder
+!build-android/
+!build/
+
+# Ignore everything inside the folder again
+build-android/*
+build/*
+
+# Allow specific file
+!build-android.ps1
+!build.ps1
+!build-android/note

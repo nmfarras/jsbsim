@@ -1,0 +1,7 @@
+for unreal 5.4, use: 
+- Android NDK r25b-r26c
+- Android Build tools (tested for currrent latest)
+- Android SDK Tools CMake 3.22.1
+- Java SDK 17
+
+All can be download from Android Studio except Java, since the Java from Android Studio is the latest one.

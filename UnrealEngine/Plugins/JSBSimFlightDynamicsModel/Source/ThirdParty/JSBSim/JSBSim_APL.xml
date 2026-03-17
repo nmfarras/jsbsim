@@ -27,7 +27,7 @@
 		<!-- need this if plugin enabled and supported architecture, even if not packaged for LibOVRPlatform -->
 		<if condition="bCpuArchSupported">
 			<true>
-				<loadLibrary name="libJSBSim" failmsg="libJSBSim library not loaded and required by JSBSim." />
+				<loadLibrary name="JSBSim" failmsg="libJSBSim library not loaded and required by JSBSim." />
 			</true>
 		</if>
 	</soLoadLibrary>
