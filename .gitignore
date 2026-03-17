@@ -101,24 +101,39 @@ UnrealEngine/Plugins/JSBSimFlightDynamicsModel/Source/ThirdParty/JSBSim/Lib
 UnrealEngine/Plugins/JSBSimFlightDynamicsModel/Source/ThirdParty/JSBSim/LibDebug
 UnrealEngine/Plugins/JSBSimFlightDynamicsModel/Source/ThirdParty/JSBSim/Include
 UnrealEngine/Binaries
+UnrealEngine/Build
 UnrealEngine/DerivedDataCache
 UnrealEngine/Intermediate
 UnrealEngine/Saved
 UnrealEngine/UEReferenceApp.xcworkspace
 UnrealEngine/UEReferenceApp.sln
 
+UnrealEngine 5.4/Plugins/JSBSimFlightDynamicsModel/Binaries
+UnrealEngine 5.4/Plugins/JSBSimFlightDynamicsModel/Intermediate
+UnrealEngine 5.4/Plugins/JSBSimFlightDynamicsModel/Resources/JSBSim
+UnrealEngine 5.4/Plugins/JSBSimFlightDynamicsModel/Source/ThirdParty/JSBSim/LibDebug
+UnrealEngine 5.4/Plugins/JSBSimFlightDynamicsModel/Source/ThirdParty/JSBSim/Include
+UnrealEngine 5.4/Binaries
+UnrealEngine 5.4/Build
+UnrealEngine 5.4/DerivedDataCache
+UnrealEngine 5.4/Intermediate
+UnrealEngine 5.4/Package
+UnrealEngine 5.4/Saved
+UnrealEngine 5.4/UEReferenceApp.xcworkspace
+UnrealEngine 5.4/UEReferenceApp.sln
+
 #################
 ## Special Rule
 #################
 # Allow specific folder
-!build-android/
-!build/
+!/build-android/
+!/build/
 
 # Ignore everything inside the folder again
-build-android/*
-build/*
+/build-android/*
+/build/*
 
 # Allow specific file
-!build-android.ps1
-!build.ps1
-!build-android/note
+!/build-android/build-android.ps1
+!/build-android/note
+!/build/build.ps1
