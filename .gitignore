@@ -136,4 +136,5 @@ UnrealEngine 5.4/UEReferenceApp.sln
 # Allow specific file
 !/build-android/build-android.ps1
 !/build-android/note
+!/build/note
 !/build/build.ps1
